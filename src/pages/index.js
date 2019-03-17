@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
+import '../components/GoogleMap'
 
 import thumb01 from '../assets/images/thumbs/01.jpg'
 import thumb02 from '../assets/images/thumbs/02.jpg'
@@ -11,6 +12,8 @@ import thumb03 from '../assets/images/thumbs/03.jpg'
 import thumb04 from '../assets/images/thumbs/04.jpg'
 import thumb05 from '../assets/images/thumbs/05.jpg'
 import thumb06 from '../assets/images/thumbs/06.jpg'
+import thumb07 from '../assets/images/thumbs/07.jpg'
+import thumb08 from '../assets/images/thumbs/08.jpg'
 
 import full01 from '../assets/images/fulls/01.jpg'
 import full02 from '../assets/images/fulls/02.jpg'
@@ -18,6 +21,8 @@ import full03 from '../assets/images/fulls/03.jpg'
 import full04 from '../assets/images/fulls/04.jpg'
 import full05 from '../assets/images/fulls/05.jpg'
 import full06 from '../assets/images/fulls/06.jpg'
+import full07 from '../assets/images/fulls/07.jpg'
+import full08 from '../assets/images/fulls/08.jpg'
 
 const DEFAULT_IMAGES = [
   {
@@ -60,6 +65,20 @@ const DEFAULT_IMAGES = [
     src: full06,
     thumbnail: thumb06,
     caption: 'Photo 6',
+    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  },
+  {
+    id: '7',
+    src: full07,
+    thumbnail: thumb07,
+    caption: 'Photo 7',
+    description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
+  },
+  {
+    id: '8',
+    src: full08,
+    thumbnail: thumb08,
+    caption: 'Photo 8',
     description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.',
   },
 ]
@@ -183,39 +202,7 @@ class HomeIndex extends React.Component {
             <h2>Get In Touch</h2>
             <div className="row">
               <div className="8u 12u$(small)">
-                <form method="post" action="#">
-                  <div className="row uniform 50%">
-                    <div className="6u 12u$(xsmall)">
-                      <input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="Name"
-                      />
-                    </div>
-                    <div className="6u 12u$(xsmall)">
-                      <input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Email"
-                      />
-                    </div>
-                    <div className="12u">
-                      <textarea
-                        name="message"
-                        id="message"
-                        placeholder="Message"
-                        rows="4"
-                      />
-                    </div>
-                  </div>
-                </form>
-                <ul className="actions">
-                  <li>
-                    <input type="submit" value="Send Message" />
-                  </li>
-                </ul>
+                <div id="googleMap" />
               </div>
               <div className="4u 12u$(small)">
                 <ul className="labeled-icons">
