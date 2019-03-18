@@ -841,13 +841,13 @@ input[type='button'],
   border: solid 3px _palette(border);
   color: _palette(fg-bold) !important;
   cursor: pointer;
-  display: inline-block;
+  //   display: inline-block;
   font-weight: _font(weight-bold);
   height: 3.15em;
   height: calc(2.75em + 6px);
   line-height: 2.75em;
   min-width: 10em;
-  padding: 0 1.5em;
+  padding: 0.5em 1.3em;
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
@@ -875,7 +875,7 @@ input[type='button'],
     display: block;
     margin: 0 0 (_size(element-margin) * 0.5) 0;
     min-width: 0;
-    width: 100%;
+    width: 90%;
   }
 
   &.small {
@@ -1040,6 +1040,7 @@ input[type='button'],
   > section {
     border-top: solid 2px _palette(border);
     margin: $size-header-pad 0 0 0;
+    margin-left: 40px;
     padding: $size-header-pad 0 0 0;
 
     &:first-child {

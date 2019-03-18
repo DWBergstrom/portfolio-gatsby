@@ -25,8 +25,7 @@ class Footer extends React.Component {
           <ul className="copyright">
             <li>&copy; 2019</li>
             <li>
-              Built with <a href="https://www.gatsbyjs.org">Gatsby</a> and{' '}
-              <a href="https://www.reactjs.org">React</a>
+              Built using <a href="https://www.gatsbyjs.org">Gatsby.</a>
             </li>
           </ul>
         </div>
