@@ -202,6 +202,29 @@ class HomeIndex extends React.Component {
           <section id="three">
             <a name="skills-tools" />
             <h2>Skills and Technologies</h2>
+            <div className="4u 12u$(small)">
+              <ul className="labeled-icons">
+                <li>
+                  <h3 className="icon fa-js-square">
+                    <span className="label">JavaScript</span>
+                  </h3>
+                  JavaScript
+                  <br />
+                </li>
+                <li>
+                  <h3 className="icon fa-html5">
+                    <span className="label">HTML5</span>
+                  </h3>
+                  HTML5
+                </li>
+                <li>
+                  <h3 className="icon fa-css3">
+                    <span className="label">CSS3</span>
+                  </h3>
+                  CSS3
+                </li>
+              </ul>
+            </div>
           </section>
           <section id="four">
             <a name="contact" />
