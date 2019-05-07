@@ -24,6 +24,9 @@ import full06 from '../assets/images/fulls/06.jpg'
 import full07 from '../assets/images/fulls/07.jpg'
 import full08 from '../assets/images/fulls/08.jpg'
 
+import htmlImage from '../assets/images/skills/html-icon.png'
+import cssImage from '../assets/images/skills/css3-icon.png'
+
 const DEFAULT_IMAGES = [
   {
     id: '1',
@@ -172,6 +175,15 @@ class HomeIndex extends React.Component {
                   Contact
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://tinyurl.com/y32njnet"
+                  className="button"
+                  target="_blank"
+                >
+                  Resume
+                </a>
+              </li>
             </ul>
           </section>
 
@@ -203,27 +215,8 @@ class HomeIndex extends React.Component {
             <a name="skills-tools" />
             <h2>Skills and Technologies</h2>
             <div className="4u 12u$(small)">
-              <ul className="labeled-icons">
-                <li>
-                  <h3 className="icon fa-js-square">
-                    <span className="label">JavaScript</span>
-                  </h3>
-                  JavaScript
-                  <br />
-                </li>
-                <li>
-                  <h3 className="icon fa-html5">
-                    <span className="label">HTML5</span>
-                  </h3>
-                  HTML5
-                </li>
-                <li>
-                  <h3 className="icon fa-css3">
-                    <span className="label">CSS3</span>
-                  </h3>
-                  CSS3
-                </li>
-              </ul>
+              <img class="" src={htmlImage} />
+              <img class="" src={cssImage} />
             </div>
           </section>
           <section id="four">
