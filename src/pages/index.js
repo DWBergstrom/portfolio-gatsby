@@ -35,6 +35,9 @@ const DEFAULT_IMAGES = [
     caption: 'BOSRide',
     description:
       'Bike ride tracker built with a React frontend and Rails backend',
+    projectLink: 'https://dwbergstrom.github.io/ridegame-client/#/about',
+    projectDetail: 'Test credentials are: dwb@db.com / bca',
+    githubLink: 'https://github.com/DWBergstrom/ridegame-client',
   },
   {
     id: '2',
@@ -43,6 +46,9 @@ const DEFAULT_IMAGES = [
     caption: 'RideBOS',
     description:
       'Bike ride tracker built with a Bootstrap/jQuery frontend and Rails backend',
+    projectLink: 'https://dwbergstrom.github.io/ridebos-client/',
+    projectDetail: 'Test credentials are: dwb@db.com / bca',
+    githubLink: 'https://github.com/DWBergstrom/ridebos-client',
   },
   {
     id: '3',
@@ -51,6 +57,9 @@ const DEFAULT_IMAGES = [
     caption: 'Tic Tac Toe',
     description:
       'A tic tac toe front-end built in JavaScript / jQuery to connect to a Rails backend',
+    projectLink: 'https://dwbergstrom.github.io/tictactoe-client/',
+    projectDetail: 'Test credentials are: dwb@db.com / bca',
+    githubLink: 'https://github.com/DWBergstrom/tictactoe-client',
   },
   {
     id: '4',
@@ -58,7 +67,10 @@ const DEFAULT_IMAGES = [
     thumbnail: thumb04,
     caption: 'Responsive Image Slideshow',
     description:
-      'Fully responsive image slideshow built in pure JS, HTML and CSS.  Also swipeable on mobile',
+      'Fully responsive image slideshow built in pure JS, HTML and CSS (no libraries or frameworks).  Also swipeable on mobile.',
+    projectLink: 'https://dwbergstrom.github.io/responsive-slideshow/',
+    projectDetail: '',
+    githubLink: 'https://github.com/DWBergstrom/responsive-slideshow',
   },
   {
     id: '5',
@@ -66,6 +78,9 @@ const DEFAULT_IMAGES = [
     thumbnail: thumb05,
     caption: 'AlphaLyze',
     description: 'A word/character count analyzer built in JavaScript / jQuery',
+    projectLink: 'https://dwbergstrom.github.io/js-wordcloud-vanilla/',
+    projectDetail: '',
+    githubLink: 'https://github.com/DWBergstrom/js-wordcloud-vanilla',
   },
   {
     id: '6',
@@ -74,6 +89,9 @@ const DEFAULT_IMAGES = [
     caption: 'MBTA',
     description:
       'A sample MBTA app built in React and using the Mapbox API to pinpoint T stations',
+    projectLink: 'https://dwbergstrom.github.io/transpo-hackathon/',
+    projectDetail: '',
+    githubLink: 'https://github.com/DWBergstrom/transpo-hackathon',
   },
   {
     id: '7',
@@ -82,6 +100,9 @@ const DEFAULT_IMAGES = [
     caption: '5k Run Website',
     description:
       'A sample website for a 5k run built in HTML, CSS and JavaScript',
+    projectLink: 'https://thelumberjack5k.netlify.com/',
+    projectDetail: '',
+    githubLink: 'https://github.com/DWBergstrom/FEWD-BOS-22-FinalProject',
   },
   {
     id: '8',
@@ -89,6 +110,9 @@ const DEFAULT_IMAGES = [
     thumbnail: thumb08,
     caption: 'Landing Page',
     description: 'A fully responsive sample landing page built in HTML and CSS',
+    projectLink: 'https://dwbergstrom.github.io/uie-v2/uxim19.html',
+    projectDetail: '',
+    githubLink: 'https://github.com/DWBergstrom/uie-v2',
   },
 ]
 
@@ -193,11 +217,23 @@ class HomeIndex extends React.Component {
 
             <Gallery
               images={DEFAULT_IMAGES.map(
-                ({ id, src, thumbnail, caption, description }) => ({
+                ({
+                  id,
                   src,
                   thumbnail,
                   caption,
                   description,
+                  projectLink,
+                  projectDetail,
+                  githubLink,
+                }) => ({
+                  src,
+                  thumbnail,
+                  caption,
+                  description,
+                  projectLink,
+                  projectDetail,
+                  githubLink,
                 })
               )}
             />

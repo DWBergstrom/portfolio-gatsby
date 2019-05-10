@@ -69,6 +69,19 @@ class Gallery extends Component {
 
           <h3>{obj.caption}</h3>
           <p>{obj.description}</p>
+          <p>
+            Try it{' '}
+            <a href={obj.projectLink} target="_blank">
+              here.
+            </a>{' '}
+            {obj.projectDetail}
+          </p>
+          <p>
+            Github repo is{' '}
+            <a href={obj.githubLink} target="_blank">
+              here.
+            </a>{' '}
+          </p>
         </article>
       )
     })
