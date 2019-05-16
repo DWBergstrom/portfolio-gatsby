@@ -467,10 +467,32 @@ input[type='radio'] {
   }
 }
 
-/* Skill image */
+/* Skill images */
 
+.skillContainer {
+  display: flex;
+  overflow: auto;
+}
 
+.iconContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  margin: 5px;
+}
 
+.skillIcon {
+  width: auto;
+}
+
+.skillDescription {
+  margin-bottom: -2px;
+}
+
+.codePracticeContainer {
+  margin: 10px;
+}
 
 /* Image */
 

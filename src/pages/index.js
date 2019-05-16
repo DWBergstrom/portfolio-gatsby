@@ -26,6 +26,13 @@ import full08 from '../assets/images/fulls/08.jpg'
 
 import htmlImage from '../assets/images/skills/html-icon.png'
 import cssImage from '../assets/images/skills/css3-icon.png'
+import jsImage from '../assets/images/skills/javascript-icon.png'
+import jQueryImage from '../assets/images/skills/jquery-icon.png'
+import reactImage from '../assets/images/skills/react-icon.png'
+import sassImage from '../assets/images/skills/sass-icon.png'
+import gitImage from '../assets/images/skills/github-icon.png'
+import nodeJSImage from '../assets/images/skills/nodejs-icon.png'
+import railsImage from '../assets/images/skills/ruby-on-rails-icon.png'
 
 const DEFAULT_IMAGES = [
   {
@@ -210,7 +217,6 @@ class HomeIndex extends React.Component {
               </li>
             </ul>
           </section>
-
           <section id="two">
             <a name="portfolio" />
             <h2>Projects</h2>
@@ -250,9 +256,55 @@ class HomeIndex extends React.Component {
           <section id="three">
             <a name="skills-tools" />
             <h2>Skills and Technologies</h2>
-            <div className="4u 12u$(small)">
-              <img class="" src={htmlImage} />
-              <img class="" src={cssImage} />
+
+            <div className="skillContainer">
+              <div className="iconContainer">
+                <p className="skillDescription">HTML5</p>
+                <img className="skillIcon" alt="HTML5" src={htmlImage} />
+              </div>
+              <div className="iconContainer">
+                <p className="skillDescription">CSS3</p>
+                <img className="skillIcon" alt="CSS3" src={cssImage} />
+              </div>
+              <div className="iconContainer">
+                <p className="skillDescription">JavaScript</p>
+                <img className="skillIcon" alt="JavaScript" src={jsImage} />
+              </div>
+              <div className="iconContainer">
+                <p className="skillDescription">React</p>
+                <img className="skillIcon" alt="React" src={reactImage} />
+              </div>
+              <div className="iconContainer">
+                <p className="skillDescription">jQuery</p>
+                <img className="skillIcon" alt="jQuery" src={jQueryImage} />
+              </div>
+              <div className="iconContainer">
+                <p className="skillDescription">Sass</p>
+                <img className="skillIcon" alt="Sass" src={sassImage} />
+              </div>
+              <div className="iconContainer">
+                <p className="skillDescription">Github</p>
+                <img className="skillIcon" alt="Github" src={gitImage} />
+              </div>
+              <div className="iconContainer">
+                <p className="skillDescription">NodeJS</p>
+                <img className="skillIcon" alt="NodeJS" src={nodeJSImage} />
+              </div>
+              <div className="iconContainer">
+                <p className="skillDescription">Rails</p>
+                <img className="skillIcon" alt="Rails" src={railsImage} />
+              </div>
+            </div>
+            <div className="codePracticeContainer">
+              <p>
+                Find me on{' '}
+                <a
+                  href="https://www.codewars.com/users/DWBergstrom"
+                  target="_blank"
+                >
+                  Codewars
+                </a>{' '}
+              </p>
             </div>
           </section>
           <section id="four">
