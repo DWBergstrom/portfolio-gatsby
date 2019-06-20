@@ -182,7 +182,7 @@ class HomeIndex extends React.Component {
         <div id="main">
           <section id="one">
             <h4>
-              I'm a web developer who's been fortunate to have gained a broad
+              I'm a tech generalist who's been fortunate to have gained a broad
               background in technology with 10+ years of general IT experience,
               from helpdesk to system administration, across multiple
               industries, while working closely with several Agile-based
@@ -301,6 +301,7 @@ class HomeIndex extends React.Component {
                 <a
                   href="https://www.codewars.com/users/DWBergstrom"
                   target="_blank"
+                  rel="noopener noreferrer"
                 >
                   Codewars
                 </a>{' '}

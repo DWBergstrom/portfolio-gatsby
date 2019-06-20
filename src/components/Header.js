@@ -15,8 +15,8 @@ class Header extends React.Component {
             <img src={avatar} alt="Dave B" />
           </a>
           <h1>
-            <strong>I'm Dave Bergstrom</strong>, a web developer with a
-            background in IT.
+            <strong>I'm Dave Bergstrom</strong>, an IT generalist and web
+            developer.
           </h1>
         </div>
         <Footer />
