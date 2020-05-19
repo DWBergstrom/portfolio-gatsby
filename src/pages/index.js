@@ -208,7 +208,7 @@ class HomeIndex extends React.Component {
               </li>
               <li>
                 <a
-                  href="https://tinyurl.com/y32njnet"
+                  href="https://bit.ly/dwbergstrom-resume"
                   className="button"
                   target="_blank"
                 >
