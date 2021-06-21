@@ -189,16 +189,9 @@ class HomeIndex extends React.Component {
               software teams in support and ops capacities. I'm always looking
               for ways to embrace modern SaaS and web technologies to help develop and
               bring ideas to life!
-
+              <br></br>
               This site was built mainly during my experience at General Assembly during
-              late 2018, and highlights various web projects.  Please see my <a
-                  href="https://bit.ly/dbergstrom-resume"
-                  className="button"
-                  target="_blank"
-                >
-                  resume
-                </a> for
-              other IT experience.
+              late 2018, and highlights various web projects.  Please see my <a href="https://bit.ly/dbergstrom-resume" target="_blank"> resume </a> for other IT experience.
             </h4>
             <ul className="actions">
               <li>
