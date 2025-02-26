@@ -191,7 +191,7 @@ class HomeIndex extends React.Component {
               bring ideas to life!
               <br></br>
               This site was built mainly during my experience at General Assembly during
-              late 2018, and highlights various web projects.  Please see my <a href="https://bit.ly/dwbergstrom-resume202106" target="_blank"> resume </a> for other IT experience.
+              late 2018, and highlights various web projects.  Please see my <a href="https://drive.google.com/file/d/1_Y9L5aY5Eh1XRmW_JkMRHcIvqlE96uXS/view?usp=sharing" target="_blank"> resume </a> for other IT experience.
             </h4>
             <ul className="actions">
               <li>
